@@ -1,0 +1,59 @@
+.area{
+    background-image: url('../../assets/alert1.png');
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: var(--font-family);
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.botao{
+    cursor: pointer;
+    margin-top: 1rem;
+   width: 230px;
+   height: 60px;
+   background-color: #00334D;
+   color: white;
+   font-family: var(--font-family);
+   font-weight: 600;
+   font-size: 30px;
+   border: 2px solid white;
+   border-radius: 10px;
+}
+
+@media screen and (max-width: 850px){
+    .titulo{
+        font-size: 30px;
+    }
+
+    .botao{
+        width: 210px;
+        height: 45px;
+        font-size: 25px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+    .titulo{
+        font-size: 20px;
+    }
+
+    .botao{
+        width: 170px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+
+
+}
