@@ -1,0 +1,283 @@
+.info-cadastro-estudante{
+    padding-bottom: 2rem;
+    margin-left: -35.5rem;
+    font-family: var(--font-family);
+    font-size: 23px;
+}
+
+
+.area-cadastro-bolsista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.linha-estudante{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+    gap: 40px;
+}
+
+
+.conjunto-estudante{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conjunto-estudante label{
+    font-family: var(--font-family);
+    padding-bottom: 0.4rem;
+    font-size: 17px;
+
+}
+
+.conjunto-estudante input{
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 1rem;
+    border: 1.5px solid #00334D;
+
+}
+
+#nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+    width: 390px;
+}
+
+#banco-estudante{
+    height: 35px;
+    padding-left: 0.5rem;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1.5px solid #00334D;
+}
+
+#sexo-estudante, #data-estudante, #telefone-estudante, #negro-estudante, #senha-estudante, #senha-estudante-conf, #categoria-estudante, #curso-estudante, #bairro-estudante, #numero-estudante, #cidade-estudante, #estado-estudante, #agencia-estudante, #conta-estudante{
+    height: 35px;
+    width: 175px;
+    padding-left: 0.5rem;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1.5px solid #00334D;
+}
+
+.botao-estudante{
+
+    cursor: pointer;
+    background: #00334D;
+    width: 180px;
+    height: 50px;
+    margin-bottom: 2rem;
+    font-family: var(--font-family);
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.erro-data{
+    position: absolute;
+    font-size: 13px;
+    color: red;
+}
+
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1274px){
+    .info-cadastro-estudante{
+        margin-left: -29.5rem;
+    }
+    .linha-estudante{
+        gap: 20px;
+    }
+    #nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+        width: 370px;
+    }
+   
+}
+
+@media screen and (max-width: 1175px){
+    .info-cadastro-estudante{
+        margin-left: -20rem;
+    }
+    .conjunto-estudante label{
+        font-size: 15px;
+    
+    }
+    .conjunto-estudante input{
+        font-size: 15px;
+    }
+    .linha-estudante{
+        gap: 25px;
+    }
+    #nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+        width: 280px;
+    }
+    #sexo-estudante, #data-estudante, #telefone-estudante, #negro-estudante, #senha-estudante, #senha-estudante-conf, #categoria-estudante, #curso-estudante, #bairro-estudante, #numero-estudante, #cidade-estudante, #estado-estudante, #agencia-estudante, #conta-estudante{
+        width: 155px;
+    }
+   
+}
+
+@media screen and (max-width: 1019px){
+    .info-cadastro-estudante{
+        margin-left: -17rem;
+        font-size: 19px;
+    }
+    .conjunto-estudante label{
+        font-size: 13px;
+    
+    }
+    .conjunto-estudante input{
+        font-size: 15px;
+    }
+    .linha-estudante{
+        gap: 25px;
+    }
+    #nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+        width: 230px;
+    }
+    #sexo-estudante, #data-estudante, #telefone-estudante, #negro-estudante, #senha-estudante, #senha-estudante-conf, #categoria-estudante, #curso-estudante, #bairro-estudante, #numero-estudante, #cidade-estudante, #estado-estudante, #agencia-estudante, #conta-estudante{
+        width: 125px;
+    }
+   
+}
+
+@media screen and (max-width: 855px){
+    .info-cadastro-estudante{
+        margin-left: -10rem;
+        font-size: 19px;
+    }
+    .conjunto-estudante label{
+        font-size: 12px;
+    
+    }
+    .conjunto-estudante input{
+        font-size: 15px;
+    }
+    .linha-estudante{
+        gap: 25px;
+    }
+    #nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+        width: 200px;
+    }
+    #sexo-estudante, #data-estudante, #telefone-estudante, #negro-estudante, #senha-estudante, #senha-estudante-conf, #categoria-estudante, #curso-estudante, #bairro-estudante, #numero-estudante, #cidade-estudante, #estado-estudante, #agencia-estudante, #conta-estudante{
+        width: 100px;
+    }
+   
+}
+
+@media screen and (max-width: 750px){
+    .info-cadastro-estudante{
+        margin-left: -7.5rem;
+        font-size: 19px;
+    }
+    .conjunto-estudante label{
+        font-size: 12px;
+    
+    }
+    .conjunto-estudante input{
+        font-size: 15px;
+    }
+    .conjunto-estudante select{
+        font-size: 12px;
+    }
+    .linha-estudante{
+        gap: 25px;
+    }
+    #nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+        width: 180px;
+    }
+    #sexo-estudante, #data-estudante, #telefone-estudante, #negro-estudante, #senha-estudante, #senha-estudante-conf, #categoria-estudante, #curso-estudante, #bairro-estudante, #numero-estudante, #cidade-estudante, #estado-estudante, #agencia-estudante, #conta-estudante{
+        width: 90px;
+    }
+   
+}
+
+@media screen and (max-width: 711px){
+    .info-cadastro-estudante{
+        margin-left: 0;
+        font-size: 19px;
+        text-align: center;
+    }
+    .conjunto-estudante label{
+        font-size: 12px;
+    
+    }
+    .conjunto-estudante select{
+        font-size: 12px !important;
+    }
+    .linha-estudante{
+        flex-direction: column;
+        gap: 25px;
+    }
+    #nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+        width: 300px;
+    }
+    #sexo-estudante, #data-estudante, #telefone-estudante, #negro-estudante, #senha-estudante, #senha-estudante-conf, #categoria-estudante, #curso-estudante, #bairro-estudante, #numero-estudante, #cidade-estudante, #estado-estudante, #agencia-estudante, #conta-estudante{
+        width: 300px;
+    }
+   
+}
+
+@media screen and (max-width: 360px){
+    .info-cadastro-estudante{
+        font-size: 16px;
+    }
+    .conjunto-estudante label{
+        font-size: 12px;
+    
+    }
+    .linha-estudante{
+        flex-direction: column;
+        gap: 25px;
+    }
+    #nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+        width: 250px;
+    }
+    #sexo-estudante, #data-estudante, #telefone-estudante, #negro-estudante, #senha-estudante, #senha-estudante-conf, #categoria-estudante, #curso-estudante, #bairro-estudante, #numero-estudante, #cidade-estudante, #estado-estudante, #agencia-estudante, #conta-estudante{
+        width: 250px;
+    }
+    .botao-estudante{
+        width: 160px;
+        height: 45px;
+        font-size: 16px;
+    }
+   
+}
+
+@media screen and (max-width: 291px){
+    .info-cadastro-estudante{
+        font-size: 14px;
+    }
+    .conjunto-estudante label{
+        font-size: 12px;
+    
+    }
+    .linha-estudante{
+        flex-direction: column;
+        gap: 25px;
+    }
+    #nome-estudante, #email-estudante, #cpf-estudante,#rg-estudante, #data-emissao, #orgao-emissor-estudante, #data-conclusao, #cep-estudante, #rua-estudante, #curriculo-estudante, #banco-estudante{
+        width: 230px;
+    }
+    #sexo-estudante, #data-estudante, #telefone-estudante, #negro-estudante, #senha-estudante, #senha-estudante-conf, #categoria-estudante, #curso-estudante, #bairro-estudante, #numero-estudante, #cidade-estudante, #estado-estudante, #agencia-estudante, #conta-estudante{
+        width: 230px;
+    }
+    .botao-estudante{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+   
+}

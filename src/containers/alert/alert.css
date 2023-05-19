@@ -1,6 +1,8 @@
-.area{
-    background-image: url('../../assets/alert1.png');
-    width: 100%;
+.area-alert{
+    
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 200px;
     display: flex;
     align-items: center;
@@ -38,12 +40,16 @@
         width: 210px;
         height: 45px;
         font-size: 25px;
+        
     }
 
 }
 
 
 @media screen and (max-width: 600px){
+    .area{
+        height: 140px;
+    }
     .titulo{
         font-size: 20px;
     }
@@ -54,6 +60,23 @@
         font-size: 18px;
     }
 
+
+
+}
+
+@media screen and (max-width: 400px){
+    .area{
+        height: 120px;
+    }
+    .titulo{
+        font-size: 17px;
+    }
+
+    .botao{
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+    }
 
 
 }

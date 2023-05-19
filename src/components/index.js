@@ -1,2 +1,7 @@
 export {default as Navbar} from './navbar/Navbar'
 export {default as Feature} from './feature/Feature'
+export {default as Titleheader} from './header-prppg-link/Titleheader'
+export {default as Quadro_expansivel} from './quadro_expansivel/Quadro_expansivel'
+export {default as Integrante} from './integrante/Integrante'
+export {default as Quadro_projetos} from './quadro-projetos/Quadro_projetos'
+export {default as Modal_aviso} from './modal_aviso/Modal_aviso'

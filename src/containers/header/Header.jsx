@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import principal from '../../assets/principal.png'
+import escuro from '../../assets/escuro.png'
 import {RiWhatsappLine, RiInstagramLine, RiTwitterLine} from 'react-icons/ri'
 
 
@@ -18,9 +19,6 @@ function Header() {
           <RiInstagramLine id='icone' size={35}/>
           <RiTwitterLine id='icone' size={35}/>
         </div>
-      </div>
-      <div className='header-image'>
-          <img src={principal}></img>
       </div>
     </div>
   )

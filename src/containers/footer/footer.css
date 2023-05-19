@@ -1,0 +1,401 @@
+.area-footer{
+    background:radial-gradient(circle at 3% 25%, rgba(0, 51, 77, 1) 0%, rgba(20, 12, 24, 1) 100%);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.footer-about{
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-about img{
+    width: 420px;
+    height: 85px;
+}
+
+.footer-about p{
+    padding-top: 1.6rem;
+    padding-left: 0.5rem;
+    text-align: justify;
+    font-family: var(--font-family);
+    color: white;
+    font-size: 19px;
+}
+
+.footer-about span{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 25px;
+}
+
+.area-icones-footer{
+    padding-left: 0.5rem;
+    padding-top: 1.6rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.area-icones-footer-icons{
+    padding-left: 1rem;
+    color: white;
+}
+
+.footer-navigation{
+    display: flex;
+    padding-left: 13rem;
+    padding-top: 0.2rem;
+    flex-direction: column;
+}
+
+.footer-navigation span{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 25px;
+
+}
+
+.footer-line{
+    margin-top: 0.5rem;
+    width: 250px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-links{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links span{
+    padding-bottom: 1.9rem;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: white;
+    
+}
+
+.footer-links span a{
+    cursor: pointer;
+
+}
+
+
+.footer-contatos{
+    display: flex;
+    padding-left: 13rem;
+    padding-top: 0.2rem;
+    flex-direction: column;
+}
+
+.footer-contatos-title{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 25px;
+}
+
+.footer-telefone{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-email, .footer-local{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-telefone-span, .footer-email-span{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 20px;
+    padding-left: 0.5rem;
+}
+
+.footer-local-span{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 20px;
+    margin-left: 0.6rem;
+}
+
+#footer-noticias{
+    padding-top: 2.5rem;
+}
+
+.input-email{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-email input{
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    width: 260px;
+    height: 45px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 16px;
+
+}
+
+.input-email button{
+    height: 45px;
+    width: 75px;
+    border: none;
+    background-color: rgba(0, 147, 221, 1);
+    color: white;
+    font-size: 18px;
+    font-family: var(--font-family);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 1445px){
+    .footer-contatos{
+        padding-left: 10rem;
+    }
+
+    .footer-navigation{
+        padding-left: 10rem;
+    }
+
+}
+
+@media screen and (max-width: 1350px){
+    .footer-contatos{
+        padding-left: 8rem;
+    }
+
+    .footer-navigation{
+        padding-left: 8rem;
+    }
+
+}
+
+@media screen and (max-width: 1285px){
+    .footer-about{
+        width: 400px;
+    }
+    
+    .footer-about img{
+        width: 410px;
+        height: 80px;
+    }
+    .footer-about p{
+        font-size: 17px;
+    }
+    .footer-navigation{
+        padding-left: 6rem;
+    }
+    .footer-navigation span{
+        font-size: 23px;
+    
+    }
+    .footer-links span{
+        font-size: 17px;
+        
+    }
+    .footer-contatos{
+        padding-left: 6rem;
+    }
+    .footer-contatos-title{
+        font-size: 23px;
+    }
+    .footer-telefone-span, .footer-email-span, .footer-local-span{
+        font-size: 18px;
+    }
+    
+.input-email input{
+    width: 240px;
+    height: 45px;
+    font-size: 16px;
+
+}
+
+.input-email button{
+    font-size: 17px;
+    
+}
+
+}
+
+@media screen and (max-width: 1190px){
+    .footer-about{
+        width: 340px;
+    }
+    
+    .footer-about img{
+        width: 350px;
+        height: 75px;
+    }
+
+    .footer-navigation{
+        padding-left: 4rem;
+    }
+
+    .footer-contatos{
+        padding-left: 4rem;
+    }
+    .input-email input{
+        width: 230px;
+        height: 45px;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 1055px){
+    .footer-about{
+        width: 310px;
+    }
+    
+    .footer-about img{
+        width: 320px;
+        height: 75px;
+    }
+    .footer-navigation{
+        padding-left: 3rem;
+    }
+
+    .footer-line{
+        width: 200px;
+    }
+    .footer-navigation span{
+        font-size: 21px;
+    
+    }
+
+    .footer-links span{
+        font-size: 16px;
+        
+    }
+    .footer-contatos-title{
+        font-size: 21px;
+    }
+    .footer-telefone-span, .footer-email-span, .footer-local-span{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 942px){
+    .area-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-about{
+        width: 300px;
+    }
+    
+    .footer-about img{
+        width: 310px;
+        height: 75px;
+    }
+    .footer-navigation{
+        margin-left: -8rem;
+        margin-top: 2rem;
+    }
+
+    .footer-contatos{
+        width: 390px;
+        margin-left: -1rem;
+    }
+
+    
+    
+
+}
+
+@media screen and (max-width: 373px){
+    .footer-about{
+        width: 280px;
+    }
+    
+    .footer-about img{
+        width: 290px;
+        height: 65px;
+    }
+    .footer-navigation span{
+        font-size: 20px;
+    
+    }
+    .footer-links span{
+        font-size: 15px;
+        
+    }
+    .footer-navigation{
+        margin-left: -7rem;
+    }
+    .footer-contatos{
+        width: 340px;
+        margin-left: -3rem;
+    }
+    .footer-contatos-title{
+        font-size: 20px;
+    }
+    .footer-telefone-span, .footer-email-span, .footer-local-span{
+        font-size: 14px;
+    }
+    .input-email input{
+        width: 190px;
+        height: 45px;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 304px){
+    #icon-footer{
+        width: 25px;
+        height: 25px;
+    }
+    .footer-about{
+        width: 260px;
+    }
+    
+    .footer-about img{
+        width: 270px;
+        height: 65px;
+    }
+    .footer-about p{
+        font-size: 15px;
+    }
+    .footer-navigation{
+        margin-left: -6rem;
+    }
+    .footer-contatos{
+        width: 300px;
+        margin-left: -5rem;
+    }
+    .input-email input{
+        width: 170px;
+        height: 40px;
+    
+    }
+
+    .input-email button{
+        font-size: 17px;
+        height: 40px;
+        
+    }
+
+   
+
+
+}

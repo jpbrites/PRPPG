@@ -1,0 +1,298 @@
+.area-cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-image: url('../../assets/cursos.png');
+    width: 100%;
+    height: auto;
+}
+
+.title1-cursos{
+    padding-top: 3rem;
+    font-family: var(--font-family);
+    font-size: 37px;
+    color: #00334D;
+    font-weight: 600;
+}
+
+.title2-cursos{
+    font-family: var(--font-family);
+    font-size: 19px;
+    color: black;
+
+}
+
+.cards-cursos{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    overflow: visible;
+    width:360px;
+    height: 440px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 8px 6px -6px black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transition: transform 0.4s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.curso-title{
+    padding-top: 8rem;
+    font-family: var(--font-family);
+    color: black;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.line-curso{
+    margin-top: 0.5rem;
+    width: 63%;
+    height: 3px;
+    background-color: #FF9900;
+}
+
+.curso-conteudo{
+    padding-top: 2.6rem;
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 19px;
+    font-weight: lighter
+}
+
+.card img{
+    position: absolute;
+    top: -5.5rem;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1290px){
+   .card{
+    width:300px;
+    height: 420px;
+   }
+
+   .card img{
+    position: absolute;
+    top: -5.5rem;
+    width: 180px;
+    height: 180px;
+}
+
+.curso-title{
+    font-size: 26px;
+}
+
+.curso-conteudo{
+    font-size: 17px;
+}
+
+    
+
+}
+
+@media screen and (max-width: 1110px){
+    .card{
+       width:250px;
+       height: 390px;
+        margin-left: 1rem;
+    margin-right: 1rem;
+   }
+    .card img{
+    position: absolute;
+    top: -5.5rem;
+    width: 160px;
+    height: 160px;
+}
+
+.curso-title{
+    padding-top: 7rem;
+    font-size: 22px;
+}
+
+.curso-conteudo{
+    font-size: 16px;
+}
+
+
+}
+
+@media screen and (max-width: 870px){
+    .card{
+       width:220px;
+       height: 370px;
+        margin-left: 1rem;
+    margin-right: 1rem;
+   }
+    .card img{
+    position: absolute;
+    top: -5.5rem;
+    width: 140px;
+    height: 140px;
+}
+
+.curso-title{
+    padding-top: 5rem;
+    font-size: 19px;
+}
+
+.curso-conteudo{
+    font-size: 15px;
+}
+.title1-cursos{
+    font-size: 33px;
+
+}
+
+.title2-cursos{
+    font-size: 17px;
+
+}
+}
+
+@media screen and (max-width: 775px){
+    .card{
+       width:200px;
+       height: 370px;
+        margin-left: 0.5rem;
+    margin-right: 0.5rem;
+   }
+    .card img{
+    position: absolute;
+    top: -5.5rem;
+    width: 130px;
+    height: 130px;
+}
+
+.curso-title{
+    padding-top: 5rem;
+    font-size: 17px;
+}
+
+.curso-conteudo{
+    font-size: 14px;
+}
+.title1-cursos{
+    font-size: 28px;
+
+}
+
+.title2-cursos{
+    font-size: 15px;
+
+}
+}
+
+@media screen and (max-width: 680px){
+
+    .title1-cursos{
+        font-size: 25px;
+    
+    }
+    
+    .title2-cursos{
+        font-size: 14px;
+    
+    }
+
+    .cards-cursos{
+        display: block;
+        padding-top: 10rem;
+    }
+
+    .card{
+        width:320px;
+    height: 400px;
+    margin-bottom: 9rem;
+    }
+    .card img{
+        position: absolute;
+        top: -7.5rem;
+        width: 180px;
+        height: 180px;
+        
+    }
+    
+    .curso-title{
+        font-size: 26px;
+    }
+    
+    .curso-conteudo{
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+    .title1-cursos{
+        font-size: 22px;
+    
+    }
+    
+    .title2-cursos{
+        font-size: 13px;
+    
+    }
+    .card{
+        width:310px;
+    height: 390px;
+    margin-bottom: 9rem;
+    }
+    .card img{
+        position: absolute;
+        top: -6rem;
+        width: 160px;
+        height: 160px;
+        
+    }
+
+}
+
+@media screen and (max-width: 483px){
+    .title1-cursos{
+        font-size: 24px;
+        text-align: center;
+    }
+    .title2-cursos{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .card{
+        width:250px;
+    height: 370px;
+    margin-bottom: 9rem;
+    }
+    .card img{
+        position: absolute;
+        top: -6rem;
+        width: 150px;
+        height: 150px;
+        
+    }
+    .curso-title{
+        font-size: 22px;
+    }
+    
+    .curso-conteudo{
+        font-size: 17px;
+    }
+
+}

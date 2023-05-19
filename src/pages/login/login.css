@@ -1,0 +1,291 @@
+.divisao-tela-login{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.lado-esquerdo{
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lado-esquerdo img{
+    
+    width: 290px;
+    height: 60px;
+
+}
+
+.lado-direito{
+    width: 50%;
+    
+}
+
+.lado-direito img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-login{
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.area-login{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.barra-login{
+    width: 146px;
+    height: 5px;
+    background: linear-gradient(153deg, rgba(0,147,221,1) 0%, rgba(255,153,0,1) 100%);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    margin-bottom: 0.25rem;
+}
+
+.label-login{
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-weight: 900;
+    color: #040404;
+}
+
+.descricao-login{
+    padding-top: 0.8rem;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #040404;
+}
+
+.form-login{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.label-email-login, .label-senha-login{
+    font-family: var(--font-family);
+    font-size: 19px;
+    color: #040404;
+}
+
+#email-login, #senha-login{
+    font-size: 16px;
+    width: 427px;
+    height: 40px;
+    border: 1px solid #00334D;
+    border-radius: 10px;
+    padding-left: 1rem;
+    margin-top: 0.9rem;
+    margin-bottom: 1.7rem;
+}
+
+.botao-login{
+    cursor: pointer;
+    background: #00334D;
+    margin-top: 1.7rem;
+    height: 50px;
+    font-family: var(--font-family);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.botao-login:hover{
+    background:radial-gradient(circle at 3% 25%, rgba(0, 51, 77, 0.8) 0%, rgba(20, 12, 24, 0.8) 100%);
+}
+
+.esqueceu-senha{
+    cursor: pointer;
+    margin-top: -1.3rem;
+    margin-left: 19.6rem;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #040404;
+}
+
+@media screen and (max-width: 1000px){
+    .label-login{
+        font-size: 42px;
+    }
+    
+    .descricao-login{
+        font-size: 14.4px;
+    }
+    .label-email-login, .label-senha-login{
+        font-size: 17px;
+    }
+    
+    #email-login, #senha-login{
+        font-size: 16px;
+        width: 387px;
+        height: 40px;
+    }
+    .esqueceu-senha{
+        margin-left: 16.9rem;
+    }
+
+
+}
+
+@media screen and (max-width: 840px){
+    .lado-direito{
+        display: none;
+    }
+    .lado-esquerdo{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 472px){
+    .label-login{
+        font-size: 35px;
+    }
+    
+    .descricao-login{
+        font-size: 13px;
+    }
+    .label-email-login, .label-senha-login{
+        font-size: 17px;
+    }
+    
+    #email-login, #senha-login{
+        font-size: 16px;
+        width: 350px;
+        height: 40px;
+    }
+    .esqueceu-senha{
+        margin-left: 14.8rem;
+    }
+
+
+}
+
+@media screen and (max-width: 430px){
+
+    .container-login{
+        padding-left: 0.4rem;
+        justify-content: flex-start;
+    }
+    .label-login{
+        font-size: 35px;
+    }
+    
+    .descricao-login{
+        font-size: 13px;
+    }
+    .label-email-login, .label-senha-login{
+        font-size: 17px;
+    }
+    
+    #email-login, #senha-login{
+        font-size: 16px;
+        width: 350px;
+        height: 40px;
+    }
+    .esqueceu-senha{
+        margin-left: 14.8rem;
+    }
+
+
+}
+
+@media screen and (max-width: 401px){
+
+    .container-login{
+        padding-left: 0.4rem;
+        justify-content: flex-start;
+    }
+    .label-login{
+        font-size: 30px;
+    }
+    
+    .descricao-login{
+        font-size: 11px;
+    }
+    .label-email-login, .label-senha-login{
+        font-size: 15px;
+    }
+    
+    #email-login, #senha-login{
+        font-size: 16px;
+        width: 295px;
+        height: 35px;
+    }
+    .esqueceu-senha{
+        margin-left: 12.2rem;
+        font-size: 12px;
+    }
+
+    .barra-login{
+        width: 106px;
+        height: 4px;
+    }
+
+    .botao-login{
+        height: 45px;
+        font-size: 20px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 344px){
+
+    .container-login{
+        padding-left: 0.4rem;
+        justify-content: flex-start;
+    }
+    .lado-esquerdo img{
+    
+        width: 220px;
+        height: 50px;
+    
+    }
+    
+    .label-login{
+        font-size: 25px;
+    }
+    
+    .descricao-login{
+        font-size: 9px;
+    }
+    .label-email-login, .label-senha-login{
+        font-size: 14px;
+    }
+    
+    #email-login, #senha-login{
+        font-size: 16px;
+        width: 241px;
+        height: 35px;
+    }
+    .esqueceu-senha{
+        margin-left: 9.2rem;
+        font-size: 11px;
+    }
+
+    .barra-login{
+        width: 66px;
+        height: 4px;
+    }
+
+    .botao-login{
+        height: 45px;
+        font-size: 20px;
+    }
+    
+
+
+}

@@ -19,7 +19,7 @@
 
 .imagem{
     width: 530px;
-    height: 350px;
+    height: 370px;
     border-radius: 20px;
 }
 
@@ -43,5 +43,14 @@
     .area-img{
         margin-left: 0rem;
        }
+
+}
+
+@media screen and (max-width: 350px){
+    .imagem{
+        width: 230px;
+        height: 170px;
+    }
+
 
 }

@@ -1,0 +1,157 @@
+.area-projeto-pesquisa{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    padding-right: 1rem;
+
+
+    
+}
+
+.aba-quadro-projeto{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 212, 214, 0.4);
+    margin-top: 1rem;
+    padding-left: 1rem;
+    height: auto;
+    
+}
+
+.conjunto-aba-projeto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    cursor: pointer;
+    
+}
+
+.frases-projeto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
+}
+
+.frases-projeto span{
+    color: black ;
+    font-family: var(--font-family) ;
+    font-size: 17px ;
+    padding-bottom: 0.3rem;
+}
+
+.icon-proj{
+    color: black;
+    
+}
+
+.destaque-proj{
+    font-weight: bold;
+}
+
+.conteudo-aba-projeto{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0.5rem;
+}
+
+.conteudo-aba-projeto .conteudo-titulo-projeto{
+    font-family: var(--font-family) ;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.conteudo-aba-projeto .conteudo-descricao-projeto{
+    font-family: var(--font-family) ;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    line-height: 1.4;
+    
+}
+
+.conteudo-aba-projeto .conteudo-integrantes-label{
+    font-family: var(--font-family) ;
+    font-size: 23px;
+    padding-bottom: 1rem;
+}
+
+.conteudo-aba-projeto .conteudo-integrantes{
+    font-family: var(--font-family) ;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 896px){
+
+    .frases-projeto span{
+        font-size: 15px ;
+    }
+
+    .conteudo-aba-projeto .conteudo-titulo-projeto, .conteudo-aba-projeto .conteudo-descricao-projeto{
+        font-size: 13px;
+    }
+
+    .conteudo-aba-projeto .conteudo-integrantes-label{
+        font-size: 20px;
+    }
+    .conteudo-aba-projeto .conteudo-integrantes{
+        font-size: 15px;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px){
+
+    .frases-projeto span{
+        font-size: 13px ;
+    }
+    .icon-proj{
+        width: 29px;
+        height: 29px;
+        
+    }
+
+    .conteudo-aba-projeto .conteudo-titulo-projeto, .conteudo-aba-projeto .conteudo-descricao-projeto{
+        font-size: 12px;
+    }
+
+    .conteudo-aba-projeto .conteudo-integrantes-label{
+        font-size: 18px;
+    }
+    .conteudo-aba-projeto .conteudo-integrantes{
+        font-size: 13px;
+    }
+    
+
+}
+
+@media screen and (max-width: 350px){
+
+    .frases-projeto span{
+        font-size: 12px ;
+    }
+    .icon-proj{
+        width: 25px;
+        height: 25px;
+        
+    }
+
+    .conteudo-aba-projeto .conteudo-titulo-projeto, .conteudo-aba-projeto .conteudo-descricao-projeto{
+        font-size: 12px;
+    }
+
+    .conteudo-aba-projeto .conteudo-integrantes-label{
+        font-size: 17px;
+    }
+    .conteudo-aba-projeto .conteudo-integrantes{
+        font-size: 12px;
+    }
+    
+
+}

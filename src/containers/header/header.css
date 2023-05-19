@@ -8,24 +8,25 @@
 
 .header{
   display: flex;
+  justify-content: center;
+ align-items: center;
   
   
 }
 
 .header-content{
-  flex: 1;
  display: flex;
  justify-content: center;
- align-items: flex-start;
+ align-items: center;
  flex-direction: column;
- margin-left: 6rem;
-
+ margin-top: 6rem;
+ text-align: center;
 }
 
 .header-content h1{
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 56px;
+  font-size: 75px;
   line-height: 75px;
   letter-spacing: -0.04em;
   color: white;
@@ -36,7 +37,7 @@
   font-family: var(--font-family);
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 27px;
   color: white;
   margin-top: 1.5rem;
@@ -88,7 +89,6 @@
   }
 
   .header-content{
-    margin-left: 6rem;
     margin-top: 0;
   }
 
@@ -96,6 +96,7 @@
 }
 
 @media screen and (max-width: 650px){
+ 
   .header h1{
     font-size: 48px;
     line-height: 60px;
@@ -121,5 +122,36 @@
     line-height: 24px;
 
   }
+
+}
+
+@media screen and (max-width: 467px){
+
+  .header h1{
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  .header-image img{
+    width: 290px;
+    height: 290px;
+  }
+  .header p{
+    font-size: 12px;
+    line-height: 24px;
+
+  }
+  .header-button{
+    width: 145px;
+    height: 50px;
+    font-size: 21px;
+
+   
+  }
+
+}
+
+@media screen and (max-width: 289px){
+
 
 }

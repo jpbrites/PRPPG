@@ -1,0 +1,14 @@
+.area-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    
+}
+
+.copy-label{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+}

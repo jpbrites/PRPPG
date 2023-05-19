@@ -1,0 +1,232 @@
+.departamentos{
+    height: auto;
+    width: 100%;
+    background-color: #00334D;
+    
+}
+
+.departamentos-title-area{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.departamentos-title-area span{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+}
+
+.grid-departamentos{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grid-departamentos2{
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-departamentos{
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 370px;
+    height: 280px;
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.graduacao, .pesquisa{
+    background-color: #FF9900;
+    border: none;
+}
+
+.item-departamentos img{
+    margin-top: 1.4rem;
+    width: 60px;
+    height: 60px;
+}
+
+.title-departamentos{
+    margin-top: 1.4rem;
+    font-family: var(--font-family);
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.conteudo-departamentos{
+    margin-top: 1.4rem;
+    font-family: var(--font-family);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1100px){
+    .item-departamentos{
+        width: 330px;
+        height: 240px;
+    }
+
+    .item-departamentos img{
+        width: 50px;
+        height: 50px;
+
+    }
+    .title-departamentos{
+        font-size: 21px;
+    }
+    
+    .conteudo-departamentos{
+
+        font-size: 14px;
+    }
+
+    .departamentos-title-area span{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 680px){
+
+    .container-dep{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .grid-departamentos, .grid-departamentos2{
+        display: block;
+
+    }
+    .departamentos-title-area span{
+        font-size: 25px;
+    }
+
+    .pos{
+        margin-bottom: 1rem;
+    }
+
+    .pesquisa{
+        margin-bottom: 1rem;
+        background-color: #00334D;
+        border: 1px solid white;
+    }
+
+    .inovacao{
+        background-color: #FF9900;
+        border: none;
+    }
+    .item-departamentos{
+        width: 310px;
+        height: 220px;
+    }
+
+    .item-departamentos img{
+        width: 40px;
+        height: 40px;
+
+    }
+    .title-departamentos{
+        font-size: 19px;
+    }
+    
+    .conteudo-departamentos{
+
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 537px){
+    .departamentos-title-area span{
+        font-size: 18px;
+    }
+    .item-departamentos{
+        width: 290px;
+        height: 200px;
+    }
+
+    .item-departamentos img{
+        width: 40px;
+        height: 40px;
+
+    }
+    .title-departamentos{
+        font-size: 19px;
+        margin-top: 1rem;
+    }
+    
+    .conteudo-departamentos{
+
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 387px){
+
+    .departamentos-title-area span{
+        font-size: 15px;
+    }
+    .item-departamentos{
+        width: 260px;
+        height: 170px;
+    }
+
+    .item-departamentos img{
+        margin-top: 0.7rem;
+        width: 40px;
+        height: 40px;
+
+    }
+    .title-departamentos{
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+    
+    .conteudo-departamentos{
+        margin-top: 1rem;
+        font-size: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 305px){
+
+    .departamentos-title-area span{
+        font-size: 12px;
+    }
+    .item-departamentos{
+        width: 240px;
+        height: 150px;
+    }
+
+    .item-departamentos img{
+        margin-top: 0.7rem;
+        width: 30px;
+        height: 30px;
+
+    }
+    .title-departamentos{
+        font-size: 15px;
+        margin-top: 1rem;
+    }
+    
+    .conteudo-departamentos{
+        margin-top: 1rem;
+        font-size: 9px;
+    }
+
+}
